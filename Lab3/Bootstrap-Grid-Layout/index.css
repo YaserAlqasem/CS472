@@ -1,0 +1,54 @@
+.header {
+    background-color: rgb(143, 213, 225);
+    text-align: center;
+    height: 50px;
+}
+
+.header > span, .footer > span {
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.menu {
+    background-color: rgb(5, 51, 5);
+    display: flex;
+}
+
+.menu-links {
+    display: flex;
+    padding-left: 5px;
+}
+
+.menu-links > li {
+    list-style-type: none;
+    color: #ffff;
+    padding-right: 15px;
+}
+
+.columns-text {
+    display: inline-block;
+    padding: 5px;
+}
+
+.column1 {
+    background-color: rgb(116, 116, 116);
+}
+
+.column2 {
+    background-color: darkgray;
+}
+
+.column3 {
+    background-color: rgb(210, 206, 206);
+}
+
+.footer {
+    background-color: rgb(5, 51, 5);
+    text-align: center;
+    height: 50px;
+}
+
+.footer > span {
+    color: #ffff;
+}
