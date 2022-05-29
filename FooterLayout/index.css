@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(21, 21, 21);
+    text-align: center;
+}
+
+.footer-content {
+    padding-top: 8px;
+}
+
+.top-content {
+    display: flex;
+    border-bottom: 2px solid rgb(35, 34, 34);
+}
+
+.about-us, .tweets, .instagram{
+    color: azure;
+    width: 400px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+input[type="text"] {
+    background-color: rgb(35, 34, 34);
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.send-email {
+    background-color: orange;
+    color: #fff;
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+}
+
+.images-grid {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    gap: 10px;
+}
+
+.bottom-content {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.menu-links {
+    display: flex;
+}
+
+.menu-links > ul{
+    display: flex;
+}
+
+.menu-links > ul > li {
+    list-style-type: none;
+    color: #fff;
+    padding-right: 10px;
+}
+
+.logo {
+    color: #fff;
+    padding: 10px;
+}
